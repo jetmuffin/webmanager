@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 
 RUN npm install
-RUN bower install
+RUN bower install --alow-root
 RUN gulp
 
 RUN gulp serve
