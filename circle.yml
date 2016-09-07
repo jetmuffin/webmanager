@@ -1,0 +1,17 @@
+machine:
+    node:
+        version: 5.0.0
+
+dependencies:
+    override:
+        - npm install
+
+test:
+    override:
+        - npm test
+
+deployment:
+    staging:
+        branch: master
+        heroku:
+            appname: webmanager
