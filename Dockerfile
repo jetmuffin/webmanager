@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node:5.12.0
 
 RUN npm install -g bower gulp
 
