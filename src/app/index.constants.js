@@ -3,8 +3,8 @@
   'use strict';
 
   angular
-    .module('webmanager')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
+      .module('webmanager')
+      .constant('malarkey', malarkey)
+      .constant('moment', moment);
 
 })();
