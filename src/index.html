@@ -1,12 +1,12 @@
-<!doctype html>
 <html ng-app="webmanager">
 <head>
     <meta charset="utf-8">
     <title>webmanager</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="assets/theme/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="assets/theme/css/skins/_all-skins.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AdminLTE 2 | Dashboard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
@@ -14,7 +14,9 @@
     <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
     <!-- endbuild -->
-
+    <link rel="stylesheet" href="assets/theme/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="assets/theme/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="assets/theme/css/skins/skin-blue-light.min.css">
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
     <!-- inject:css -->
     <!-- css files will be automatically insert here -->
@@ -24,12 +26,14 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <!--[if lt IE 10]>
 <![endif]-->
-<wm-sidebar></wm-sidebar>
-<wm-header></wm-header>
-<div class="content-wrapper">
-    <div ui-view></div>
+<div class="wrapper">
+    <wm-sidebar></wm-sidebar>
+    <wm-header></wm-header>
+    <div class="content-wrapper">
+        <div ui-view></div>
+    </div>
+    <wm-footer></wm-footer>
 </div>
-<wm-footer></wm-footer>
 
 <!-- build:js(src) scripts/vendor.js -->
 <!-- bower:js -->
