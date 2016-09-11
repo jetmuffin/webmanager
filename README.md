@@ -21,6 +21,7 @@ Then, install the dependencies.
 ```
 $ npm install -g gulp bower
 $ npm install
+$ bower install
 ```
 
 Build projects using gulp.
