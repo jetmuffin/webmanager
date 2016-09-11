@@ -2,8 +2,8 @@
   'use strict';
 
   angular
-    .module('webmanager')
-    .config(config);
+      .module('webmanager')
+      .config(config);
 
   /** @ngInject */
   function config($logProvider, toastrConfig) {

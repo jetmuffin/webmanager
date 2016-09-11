@@ -1,0 +1,21 @@
+.btn-uploader-sm {
+    position: relative;
+}
+
+.btn-uploader-sm input[type="file"] {
+    position: absolute;
+    width: 84px;
+    height: 22px;
+    top: 1px;
+    left: 1px;
+    opacity: 0;
+}
+
+.callout-list {
+    position: absolute;
+}
+
+.callout-top-right {
+    right: 20px;
+    top: 20px;
+}
