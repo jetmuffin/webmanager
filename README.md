@@ -39,6 +39,7 @@ $ gulp serve
 ## Authors
 
 - JetMuffin
+- Konnase
 
 ## License
 
